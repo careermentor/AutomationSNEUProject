@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T07:41:47 IST" name="Default suite" finished-at="2023-07-25T07:41:59 IST" duration-ms="12473">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T07:41:47 IST" name="Default test" finished-at="2023-07-25T07:41:59 IST" duration-ms="12473">
+      <class name="org.xyz.automation.FirstAutomation">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.xyz.automation.FirstAutomation@51dcb805]" started-at="2023-07-25T07:41:47 IST" name="launchBrowser" finished-at="2023-07-25T07:41:57 IST" duration-ms="9591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="signupfunctionality()[pri:0, instance:org.xyz.automation.FirstAutomation@51dcb805]" started-at="2023-07-25T07:41:57 IST" name="signupfunctionality" finished-at="2023-07-25T07:41:59 IST" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupfunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.xyz.automation.FirstAutomation@51dcb805]" started-at="2023-07-25T07:41:59 IST" name="closeBrowser" finished-at="2023-07-25T07:41:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.xyz.automation.FirstAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
