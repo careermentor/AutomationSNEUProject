@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-25T07:41:47 IST" name="Default suite" finished-at="2023-07-25T07:41:59 IST" duration-ms="12473">
+  <suite started-at="2023-07-27T07:24:01 IST" name="Default suite" finished-at="2023-07-27T07:24:50 IST" duration-ms="49820">
     <groups>
     </groups>
-    <test started-at="2023-07-25T07:41:47 IST" name="Default test" finished-at="2023-07-25T07:41:59 IST" duration-ms="12473">
-      <class name="org.xyz.automation.FirstAutomation">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.xyz.automation.FirstAutomation@51dcb805]" started-at="2023-07-25T07:41:47 IST" name="launchBrowser" finished-at="2023-07-25T07:41:57 IST" duration-ms="9591" status="PASS">
+    <test started-at="2023-07-27T07:24:01 IST" name="Default test" finished-at="2023-07-27T07:24:50 IST" duration-ms="49820">
+      <class name="org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:01 IST" name="launchBrowser" finished-at="2023-07-27T07:24:09 IST" duration-ms="7842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="signupfunctionality()[pri:0, instance:org.xyz.automation.FirstAutomation@51dcb805]" started-at="2023-07-25T07:41:57 IST" name="signupfunctionality" finished-at="2023-07-25T07:41:59 IST" duration-ms="2641" status="PASS">
+        <test-method signature="tc01_validateloginfunctionality(java.lang.String,java.lang.String)[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:09 IST" name="tc01_validateloginfunctionality" data-provider="data" finished-at="2023-07-27T07:24:20 IST" duration-ms="11861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupfunctionality -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.xyz.automation.FirstAutomation@51dcb805]" started-at="2023-07-25T07:41:59 IST" name="closeBrowser" finished-at="2023-07-25T07:41:59 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- tc01_validateloginfunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:21 IST" name="closeBrowser" finished-at="2023-07-27T07:24:22 IST" duration-ms="1458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- org.xyz.automation.FirstAutomation -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:22 IST" name="launchBrowser" finished-at="2023-07-27T07:24:27 IST" duration-ms="5288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="tc01_validateloginfunctionality(java.lang.String,java.lang.String)[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:27 IST" name="tc01_validateloginfunctionality" data-provider="data" finished-at="2023-07-27T07:24:36 IST" duration-ms="8468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_validateloginfunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:36 IST" name="closeBrowser" finished-at="2023-07-27T07:24:36 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:36 IST" name="launchBrowser" finished-at="2023-07-27T07:24:42 IST" duration-ms="5714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="tc01_validateloginfunctionality(java.lang.String,java.lang.String)[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:42 IST" name="tc01_validateloginfunctionality" data-provider="data" finished-at="2023-07-27T07:24:50 IST" duration-ms="7569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_validateloginfunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF@66498326]" started-at="2023-07-27T07:24:50 IST" name="closeBrowser" finished-at="2023-07-27T07:24:50 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.wipro.automation.fb.testcases.ValidateLoginScenario_DDF -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

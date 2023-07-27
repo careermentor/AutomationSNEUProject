@@ -18,7 +18,11 @@ public class FirstAutomation
 	{
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		driver = new ChromeDriver(); ///launch your chrome browser
+		
+		
 		driver.get("https://www.facebook.com/");
+		
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(500, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
